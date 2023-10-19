@@ -1,0 +1,11 @@
+mov [100], word 1776
+mov ax, [100]
+mov bx, ax
+; bx has the old value
+
+mov si, 105
+mov [si + 99], byte 0xfa
+mov ah, [si + 99]
+mov al, [si + 99]
+add al, 1
+; ax should have fafb now

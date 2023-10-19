@@ -1,0 +1,5 @@
+mov cx, 55
+add cx, 12
+add bx, cx
+add bx, 37
+add bh, 37

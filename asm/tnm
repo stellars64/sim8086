@@ -1,0 +1,16 @@
+mov cx, 55 ; move a 55 into cx
+mov dx, cx ; move the value of cx into dx
+mov [30], dx ; 
+mov bx, [30] ;
+
+mov cx, 0 ;
+mov dx, 0 ;
+mov bx, 0 ;
+
+mov si, 100 ;
+
+mov [si + 35], word 1337
+mov ax, [si + 35]
+add ax, 2
+mov [si + 35], ax
+mov bx, [si + 35]

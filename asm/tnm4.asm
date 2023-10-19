@@ -1,0 +1,6 @@
+mov ax, 0x1337
+add ax, 2
+sub ax, 2
+cmp ax, 0x1337
+cmp ax, 0x1338
+or ax, 0xFFFF
